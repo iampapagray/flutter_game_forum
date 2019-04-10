@@ -31,7 +31,7 @@ class _HorizontalTabLayoutState extends State<HorizontalTabLayout> with SingleTi
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 500.0,
+      height: 450.0,
       child: Stack(
         children: <Widget>[
           Positioned(
@@ -94,21 +94,21 @@ class _HorizontalTabLayoutState extends State<HorizontalTabLayout> with SingleTi
       [
         ForumCard(forum: fortniteForum ),
         ForumCard(forum: pubgForum ),
-        ForumCard(forum: fortniteForum ),
-        ForumCard(forum: pubgForum ),
+        // ForumCard(forum: fortniteForum ),
+        // ForumCard(forum: pubgForum ),
       ],
       [
         ForumCard(forum: pubgForum ),
         ForumCard(forum: fortniteForum ),
-        ForumCard(forum: pubgForum ),
+        // ForumCard(forum: pubgForum ),
       ],
       [
         ForumCard(forum: fortniteForum ),
         ForumCard(forum: pubgForum ),
-        ForumCard(forum: pubgForum ),
-        ForumCard(forum: fortniteForum ),
-        ForumCard(forum: fortniteForum ),
-        ForumCard(forum: pubgForum ),
+        // ForumCard(forum: pubgForum ),
+        // ForumCard(forum: fortniteForum ),
+        // ForumCard(forum: fortniteForum ),
+        // ForumCard(forum: pubgForum ),
       ],
     ][index];
   }
